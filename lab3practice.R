@@ -1,0 +1,7 @@
+v1<-c(3,9,66)
+v2<-c(33,99,6)
+row.names<-c("row1","row2")
+column.names<-c("col1","col2","col3")
+res<-array(c(v1,v2),dim= c(2,3),dimnames=list(row.names,column.names))
+#print(res)
+print(res[,3])
